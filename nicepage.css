@@ -34415,6 +34415,8 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-nav-2 {
   font-size: 1rem;
+  background-image: none;
+  box-shadow: -2px 2px 8px 0 rgba(128,128,128,1);
 }
 
 .u-header .u-nav-3 {
@@ -34424,6 +34426,8 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-nav-4 {
   font-size: 1rem;
+  background-image: none;
+  box-shadow: -2px 2px 8px 0 rgba(128,128,128,1);
 }
 @media (max-width: 1199px) {
   .u-header .u-sheet-1 {
@@ -34482,7 +34486,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-image-1 {
-    width: auto;
     height: auto;
   }
 
