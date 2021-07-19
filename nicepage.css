@@ -34397,23 +34397,23 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-image-1 {
-  margin: 24px auto 0 11px;
+  margin: 20px auto 0 11px;
 }
 
 .u-header .u-logo-image-1 {
-  max-width: 80px;
-  max-height: 80px;
+  max-width: 220px;
+  max-height: 220px;
 }
 
 .u-header .u-search-1 {
-  width: 200px;
+  width: 244px;
   height: auto;
   min-height: 38px;
-  margin: -39px -19px 0 auto;
+  margin: -43px 0 0 auto;
 }
 
 .u-header .u-menu-1 {
-  margin: -59px 229px 4px auto;
+  margin: -59px 295px 4px auto;
 }
 
 .u-header .u-nav-1 {
@@ -34426,59 +34426,106 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-nav-3 {
   font-size: 1rem;
+  font-weight: normal;
 }
 
 .u-header .u-nav-4 {
   font-size: 1rem;
 }
 @media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 106px;
+  }
+
   .u-header .u-image-1 {
-    width: 80px;
-    height: 40px;
-    margin-left: 11px;
+    width: auto;
+    margin-top: 29px;
+    margin-left: 0;
   }
 
   .u-header .u-search-1 {
-    margin-top: -39px;
-    margin-right: -19px;
+    width: 244px;
+    margin-right: 0;
   }
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -33px;
-    margin-right: 220px;
-    margin-bottom: 2px;
+    margin-top: -59px;
+    margin-right: 258px;
+    margin-bottom: 13px;
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-image-1 {
+    margin-top: 29px;
+  }
+
+  .u-header .u-logo-image-1 {
+    max-width: 216px;
+    max-height: 216px;
+  }
+
   .u-header .u-search-1 {
-    margin-top: -40px;
-    margin-right: 58px;
+    margin-top: -43px;
+    margin-right: 71px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -34px;
-    margin-right: 0;
-    margin-bottom: 4px;
+    margin-top: -40px;
+    margin-right: -2px;
+    margin-bottom: 34px;
+  }
+
+  .u-header .u-nav-3 {
+    width: 120px;
+    height: 368px;
+    margin: 76px auto 0;
   }
 }
+@media (max-width: 767px) {
+  .u-header .u-image-1 {
+    height: 40px;
+  }
 
+  .u-header .u-menu-1 {
+    margin-right: -2px;
+  }
+
+  .u-header .u-nav-3 {
+    margin-top: 87px;
+  }
+}
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 160px;
+    min-height: 111px;
   }
 
   .u-header .u-image-1 {
-    margin-left: auto;
+    margin-top: 35px;
+  }
+
+  .u-header .u-logo-image-1 {
+    max-width: 186px;
+    max-height: 186px;
   }
 
   .u-header .u-search-1 {
-    margin-top: 11px;
-    margin-right: auto;
+    width: 115px;
+    margin-top: -36px;
+    margin-right: 40px;
   }
 
   .u-header .u-menu-1 {
-    margin: 6px auto 0 158px;
+    margin-top: -44px;
+    margin-bottom: 35px;
+  }
+
+  .u-header .u-nav-3 {
+    font-size: 1.25rem;
+    width: 164px;
+    height: 384px;
+    font-weight: 700;
+    margin-top: 114px;
   }
 }
 .u-footer {

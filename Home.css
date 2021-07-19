@@ -77,22 +77,17 @@
   .u-section-1 .u-text-1 {
     font-size: 2.25rem;
     width: auto;
-    margin-top: 68px;
-    margin-right: 28px;
-    margin-left: -28px;
+    margin-top: 76px;
   }
 
   .u-section-1 .u-text-2 {
-    width: auto;
-    margin-top: 15px;
-    margin-left: -28px;
-    margin-right: -28px;
     font-size: 1.25rem;
+    width: auto;
+    margin-top: 11px;
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 15px;
-    margin-left: -28px;
+    margin-top: 11px;
     padding: 11px 37px 13px 36px;
   }
 }.u-section-2 .u-sheet-1 {
