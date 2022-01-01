@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;">
-  <head>
+<html style="font-size: 16px;"><head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Want to join our team?">
-    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="Create Your own schoolsquid account NOW!">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Team</title>
+    <title>Login | Register</title>
     <link rel="stylesheet" href="yourmom.css" media="screen">
-<link rel="stylesheet" href="Team.css" media="screen">
+<link rel="stylesheet" href="BecomeAdventurer.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="yourmom.js" defer=""></script>
     <meta name="generator" content="POGCHAMP">
+    <meta property="og:title" content="Welrn's Domain: Login | Register">
+    <meta property="og:description" content="Hey Fellow Aventurer it's Time To Start Your adventure!">
+    <meta property="og:image" content="https://schoolsquid.xyz/images/89d23f4f01a6b7203d66e42065af1d54a1a13a05aaf21f591122d930e6a056ddc83b27c9adf12cfcc01c3d12cbc6118a7442deebab52c58b9eebe0_1280.png">
+    <meta property="og:url" content="https://schoolsquid.xyz/BecomeAdventurer">
     <link rel="icon" href="images/favicon1.png">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    
     
     
     <script type="application/ld+json">{
@@ -24,8 +26,6 @@
 		"logo": "images/logo.png"
 }</script>
     <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Team">
-    <meta property="og:description" content="">
     <meta property="og:type" content="website">
   </head>
   <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-845d"><div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
@@ -42,40 +42,38 @@
           </a>
         </h4>
       </div></header>
-    <section class="u-clearfix u-section-1" id="sec-ab51">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <div class="u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-            <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
-                <div alt="" class="u-image u-image-circle u-image-1" src="" data-image-width="120" data-image-height="120"></div>
-                <h5 class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-text u-text-1">Noa Bolk</h5>
-                <p class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-text u-text-2">Founder</p>
-              </div>
-            </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
-                <div alt="" class="u-image u-image-circle u-image-2" src="" data-image-width="500" data-image-height="500"></div>
-                <h5 class="u-text u-text-3">Hiring</h5>
-                <p class="u-text u-text-4">Head Of Development</p>
-              </div>
-            </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
-                <div alt="" class="u-image u-image-circle u-image-3" src="" data-image-width="500" data-image-height="500"></div>
-                <h5 class="u-text u-text-5">Hiring</h5>
-                <p class="u-text u-text-6">Customer Support</p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <section class="u-clearfix u-valign-middle-xs u-white u-section-1" id="sec-f402">
+      <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
+        <div id="xl_auth" style="width: 100%; height: 1000px"></div>
+        <script type="application/javascript"> const s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://login-sdk.xsolla.com/latest/";
+      const head = document.getElementsByTagName("head")[0];
+      head.appendChild(s);
+      let xl;
+      s.addEventListener("load", function() {
+        xl = new XsollaLogin.Widget({
+          projectId: "4de9c059-6a4f-11ec-8589-42010aa80004",
+          callbackUrl: "https://login.xsolla.com/api/blank",
+          preferredLocale: "en_XX"
+        });
+        xl.mount("xl_auth");
+        
+        xl.on(xl.events.Close, () => {
+          xl.close();
+        });
+      });
+      
+      // function for opening a widget by button
+      /* 
+        function openWidget() {
+          xl.open();
+        } 
+      */ </script>
       </div>
-    </section>
-    <section class="u-align-center u-clearfix u-white u-section-2" id="sec-809f">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <h1 class="u-text u-text-1">Want to join our team?</h1>
-        <a href="#" class="u-btn u-btn-rectangle u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-palette-2-base u-radius-0 u-btn-1">CLICK HERE</a>
-      </div>
+      <a href="https://installer.launcher.xsolla.com/xlauncher-builds/launcher_builds/10813/4859/prod/installer.exe" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-custom-color-2 u-radius-15 u-btn-1" target="_blank">DOWNLOAD</a>
+      <h6 class="u-align-center u-text u-text-custom-color-3 u-text-1">Disclaimer this button is for windows only</h6>
     </section>
     
     
@@ -89,5 +87,5 @@
         </a>
         <p class="u-small-text u-text u-text-variant u-text-1">schoolsquid is a property of schoolsquid Co.,Ltd. ©2021 All Rights Reserved.</p>
       </div></footer>
-  </body>
-</html>
+  
+</body></html>
