@@ -25,15 +25,11 @@
                 };
 
                 LoadData().then( (data) => console.log(data) );
+            LoadData().then( (data) => document.write(data) );
 
-            document.getElementById("data").innerHTML = news;
         </script>
 
-<h1>My First Web Page</h1>
-<p>My First Paragraph</p>
-
-<p id="data"></p>
-        
+        <button type="button" onclick="document.write(data)">Try it</button>
 
     </body>
 </html>
