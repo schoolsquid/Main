@@ -1,4 +1,4 @@
-<div id=news class="text-white-50">
+<div id=index class="text-white-50">
       <script>
         document.onreadystatechange = function() {
            if (document.readyState === 'complete')
@@ -8,3 +8,17 @@
          };
        </script>
     </div>
+
+<div>
+<p id="title"></p>
+<p id="text_long"></p>
+<img id="image"></img>
+</div>
+
+if (this.readyState == 4 && this.status == 200) {
+    var newsfeed = JSON.parse(this.responseText);
+    document.getElementById("news").innerHTML = this.responseText;
+    document.getElementById("title").innerHTML = newsfeed.foo;
+    document.getElementById("text_long").innerHTML = newsfeed.bar;
+    document.getElementById("image").src = newsfeed.someImgSrc;
+}
